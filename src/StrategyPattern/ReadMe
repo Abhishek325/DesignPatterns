@@ -1,0 +1,15 @@
+#Strategy pattern:
+
+1. Falls under Behavioural patterns, defines a set of encapsulated algorithms that can be swapped to carry out a 
+   specific behavior.
+
+2. Existing code explained:
+    i.  Algorithms: 
+         AddAlgorithm(To add two numbers), 
+         SubstractAlgorithm(To substract two numbers)
+
+    ii. IStrategy - A Strategy interface that defines some abstraction operation.
+
+    iii. Context  - Provides context to the strategy and invokes the corresponding algorithm (Add/Substract).
+
+    iv. StrategyPatternMain - Just to run everything!
